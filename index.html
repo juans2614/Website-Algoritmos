@@ -3,32 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALGOTITMOS CON JS</title>
-    <link rel="stylesheet" href="Style.css">
+    <title>Algoritmos con Js</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <section>
+    <section id="cont-global">
+        <h1>Algoritmos con Javascript</h1>
+        <p>Juan Sebastian Hernandez</p>
+        <hr>
+        <div class="cont-botones">
+            <!--Estructuras secuenciales -->
+            <button onclick="opBasicas()">Operaciones Básicas</button>
+            <button onclick="areaTriangulo()">Área de un Triángulo</button>
+            <button onclick="conversionUnidades()">Coversión de Unidades</button>
 
-        <h1>ALGORITMOS CON JS PURO</h1>
-        <h2>Juan Sebastian Hernandez Castillo - ADSO 2828866</h2>
-        <p>Porfavor dale click al algoritmo que deseeas ejecutar</p>
+            <!--Estrcuturas condicionales -->
+            <button onclick="servicioMilitar()">Servicio Militar</button>
+            <button onclick="mayorDosN()">Mayor de Dos Números</button>
+            <button onclick="paroImpar()">Número Par o Impar</button>
+       
+            <!--Estrucutras de ciclos-->
+            <button onclick="rangoNumeros()">Rango de Números</button>
+            <button onclick="sumaRango()">Suma de Núemros</button>
+            <button onclick="esPrimo()">Número es primo</button>
+
+            <!--Complejidad media-->
+            <button onclick="conversionMoneda()">Conversión Monedas</button>
+            <button onclick=" calcularPromedio()">Promedio Calificaciones</button>
+            <button onclick="consultarPeli()">Info Peliculas</button>
+
+            <!--Otros ejercicios-->
+            <button onclick="entreDosNum()">Mayor entre dos numeros</button>
+            <button onclick="numMenor()">Menor entre tres numeros</button>
+            <button onclick="invcapital()">porcentaje de capital</button>
+            <button onclick="validarnotascol()">validar tus notas</button>
 
 
-        <div id="cont-botones">
-            <button onclick="suma()">SUMA</button>
-            <button onclick="opBasicas()">OPERACIONES MATEMATICAS</button>
-            <button onclick="camNumeracion()">CAMBIO DE LA NUMERACION</button>
-            <button onclick="aTriangulo()">AREA DE UN TRIANGULO</button>
-            <button onclick="cvUnidades()">CONVERSION DE UNIDADES</button>
-            <button onclick="entreDosNum()">MAYOR ENTRE DOS NUMEROS</button>
-            <button onclick="numMenor()">MENOR ENTRE TRES NUMEROS</button>
-            <button onclick="invcapital()">PORCENTAJE DE CAPITAL</button>
-            <button onclick="validarnotascol()">VALIDAR NOTAS</button>
         </div>
+
     </section>
 
 
-    <script src="algoritmos.js"></script>
+
+    <script src="main.js"></script>
 </body>
 </html>
