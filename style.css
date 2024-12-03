@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Permanent+Marker&display=swap');
+
+
+*{
+    font-family: "Permanent Marker", cursive;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#cont-global{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background: linear-gradient(318.32deg, #00224D 0%, #f3dddd 55%, #FF204E 100%);
+    padding: 50px 120px;
+    box-sizing: border-box;
+}
+
+h1{
+    color: #FF204E;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+p{
+    color: black;
+    font-size: 35px;
+}
+
+hr{
+    margin: 40px auto;
+    width: 1500px;
+    color: #FF204E;
+}
+
+.cont-botones{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+button{
+    min-width: 20%;
+    width: 200px;
+    cursor: pointer;
+    padding: 14px 60px;
+    color: #5D0E41;
+    border-radius: 4px;
+    border: 0 transparent;
+    margin: 20px;
+    font-size: 20px;
+    background: transparent;
+    box-shadow: 4px 2px 16px #A0153E,-4px -2px 16px #fff;
+}
+
+button:hover{
+    box-shadow: inset  3px 7px #FF204E,-3px -3px 7px #fff;
+}
